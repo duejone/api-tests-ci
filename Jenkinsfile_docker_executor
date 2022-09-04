@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build-docker-executor') {
             steps {
-                sh "docker build -t mtararujs/ubuntu_ruby_executor:latest . -f Dockerfile_executor"
+                sh "docker build -t duejone0/ubuntu_ruby_executor:latest . -f Dockerfile_executor"
             }
         }
     }
