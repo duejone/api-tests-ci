@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: api-tests
-        image: mtararujs/ubuntu_ruby
+        image: duejone0/ubuntu_ruby
         ports:
         - containerPort: 8080
