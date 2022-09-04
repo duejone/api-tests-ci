@@ -7,6 +7,7 @@ pipeline {
         stage('build-docker-base') {
             steps {
                 sh "docker build -t duejone0/ubuntu_ruby_base:latest . -f Dockerfile_base"
+                build job: "Docker Test Executor"
             }
         }
     }
